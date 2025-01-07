@@ -1,0 +1,25 @@
+III BCS IT
+GOBIKA K
+JAYA VAISHNAVI DEVI S
+
+
+
+#include <stdio.h>
+
+int main() {
+    char str[] = "LEAP"; 
+    int len = strlen(str);
+
+    for (int i = 0; i < len; i++) {
+        for (int j = 0; j < len; j++) {
+            if (i == j) {
+                printf("%c ", str[i]); 
+            } else {
+                printf("* "); 
+            }
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
